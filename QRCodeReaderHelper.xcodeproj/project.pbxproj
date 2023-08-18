@@ -11,6 +11,7 @@
 		9F74900E2A8FADB9007DCAD5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F74900D2A8FADB9007DCAD5 /* ContentView.swift */; };
 		9F7490102A8FADBA007DCAD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F74900F2A8FADBA007DCAD5 /* Assets.xcassets */; };
 		9F7490142A8FADBA007DCAD5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F7490132A8FADBA007DCAD5 /* Preview Assets.xcassets */; };
+		9F74901B2A8FADED007DCAD5 /* QRCodePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F74901A2A8FADED007DCAD5 /* QRCodePreview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		9F74900F2A8FADBA007DCAD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F7490112A8FADBA007DCAD5 /* QRCodeReaderHelper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QRCodeReaderHelper.entitlements; sourceTree = "<group>"; };
 		9F7490132A8FADBA007DCAD5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9F74901A2A8FADED007DCAD5 /* QRCodePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodePreview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				9F74900F2A8FADBA007DCAD5 /* Assets.xcassets */,
 				9F7490112A8FADBA007DCAD5 /* QRCodeReaderHelper.entitlements */,
 				9F7490122A8FADBA007DCAD5 /* Preview Content */,
+				9F74901A2A8FADED007DCAD5 /* QRCodePreview.swift */,
 			);
 			path = QRCodeReaderHelper;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F74901B2A8FADED007DCAD5 /* QRCodePreview.swift in Sources */,
 				9F74900E2A8FADB9007DCAD5 /* ContentView.swift in Sources */,
 				9F74900C2A8FADB9007DCAD5 /* QRCodeReaderHelperApp.swift in Sources */,
 			);
@@ -269,6 +273,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -307,6 +312,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
